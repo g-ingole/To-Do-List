@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, red, green);
+    /* min-height: 100vh; */
+    font-family: Monteserrat, sans-serif;
+    font-weight: 700;
+    
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #333;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+
+}
+
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+button:hover {
+    color: #38a1f3;
+    /* background: linear-gradient(40deg, #f0f0f0, #585858); */
+
+}
+
+.todo {
+    background-color: rgb(33, 31, 31);
+    box-shadow: 0 10px 10px 10px rgb(248, 245, 245);
+  
+}
+
+.abc {
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #333;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+.abc:hover {
+    color: white;
+}
+
+/* ol {
+    background: -webkit-linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+} */
+
+@media (min-width:320px) and (max-width:426px){
+    .hH{
+      padding-left: 60px;
+      position: relative;
+    }
+    .todo{
+        margin-left: 50px;
+    }
+    .abc{
+        width: 200px;
+    }
+    .bC{
+        width: 90px;
+    }
+    .kl{
+        font-size: x-large;
+    }
+}
